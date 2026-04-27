@@ -1,1 +1,28 @@
+* {
+  font-family: "Open Sans", sans-serif;
+}
+header h1 {
+  color: #a10000;
+}
 
+header h1 + p {
+  background-color: #ebebeb;
+  padding: 5px 10px 10px 5px;
+}
+
+section {
+  padding: 5px;
+}
+
+footer {
+  padding-left: 5px;
+}
+
+footer section {
+  display: flex;
+  flex-direction: row;
+}
+
+footer section img {
+  padding-right: 10px;
+}
