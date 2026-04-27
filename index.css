@@ -1,13 +1,18 @@
 * {
   font-family: "Open Sans", sans-serif;
 }
+
+li {
+  padding-top: 15px;
+}
+
 header h1 {
   color: #a10000;
 }
 
 header h1 + p {
   background-color: #ebebeb;
-  padding: 5px 10px 10px 5px;
+  padding: 16px;
 }
 
 section {
