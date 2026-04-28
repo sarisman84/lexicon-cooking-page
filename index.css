@@ -4,15 +4,31 @@
 
 /*Custom Classes*/
 .wrapper {
-  display: grid;
-  place-items: center; /* Centers both directions */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-  padding: 50px 0 0 50px; /* Edge spacing */
+  padding: 0px 50px 0 50px; /* Edge spacing */
   background: #a100004d; /* Edge color */
+
+  min-width: 100vh;
+  min-height: 100vh;
 }
 
 .content {
   background: #fcfcfc;
+}
+
+.top-banner {
+  object-fit: cover;
+  width: 1280px;
+  height: 500px;
+
+  max-width: 1280px;
+  max-height: 500px;
+
+  border: 1px;
+  border-color: #fcfcfc;
 }
 
 li {
@@ -21,7 +37,7 @@ li {
 
 /* Header Style*/
 header {
-  padding: 50px 0 0 50px;
+  padding: 20px 50px 0 50px;
 }
 
 header h1 {
@@ -35,12 +51,12 @@ header h1 + p {
 
 /* Main Body Style*/
 section {
-  padding: 50px 0 0 50px;
+  padding: 10px 50px 0 50px;
 }
 
 /*Footer Style*/
 footer {
-  padding: 50px 0 0 50px;
+  padding: 10px 50px 10px 50px;
 }
 
 footer div {
