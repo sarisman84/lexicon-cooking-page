@@ -3,20 +3,22 @@
 }
 
 /*Custom Classes*/
-.wrapper {
+/* .wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
 
-  padding: 0px 50px 0 50px; /* Edge spacing */
-  background: #a100004d; /* Edge color */
+  padding: 0px 50px 0 50px;
+  background: #a100004d; 
 
   min-width: 100vh;
   min-height: 100vh;
-}
+} */
 
 .content {
   background: #fcfcfc;
+  height: max-content;
+  margin: 0;
 }
 
 .top-banner {
@@ -33,6 +35,19 @@
 
 li {
   padding-top: 15px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0px 50px 0 50px;
+  margin: 0;
+  background: #a100004d;
+
+  min-width: 100vh;
+  min-height: 100vh;
 }
 
 /* Header Style*/
@@ -57,6 +72,7 @@ section {
 /*Footer Style*/
 footer {
   padding: 10px 50px 10px 50px;
+  margin-bottom: 50px;
 }
 
 footer div {
