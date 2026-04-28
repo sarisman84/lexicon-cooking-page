@@ -1,24 +1,14 @@
+/*Ultra-tiny reset*/
 * {
   font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
 }
 
 /*Custom Classes*/
-/* .wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  padding: 0px 50px 0 50px;
-  background: #a100004d; 
-
-  min-width: 100vh;
-  min-height: 100vh;
-} */
-
 .content {
   background: #fcfcfc;
-  height: max-content;
-  margin: 0;
+
+  max-width: 1280px;
 }
 
 .top-banner {
@@ -43,11 +33,12 @@ body {
   align-items: center;
 
   padding: 0px 50px 0 50px;
-  margin: 0;
   background: #a100004d;
 
   min-width: 100vh;
   min-height: 100vh;
+
+  margin: 0;
 }
 
 /* Header Style*/
@@ -71,7 +62,7 @@ section {
 
 /*Footer Style*/
 footer {
-  padding: 10px 50px 10px 50px;
+  padding: 20px 50px 0 50px;
   margin-bottom: 50px;
 }
 
@@ -81,9 +72,6 @@ footer div {
 }
 
 footer .content {
-  width: 1184px;
-  height: 267px;
-
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 24px;
